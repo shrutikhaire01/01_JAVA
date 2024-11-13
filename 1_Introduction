@@ -1,3 +1,20 @@
 -> DOWNLOAD JDK
 -> CHECK VESRION : JAVAC -VERSION
 -> SET PATH 
+
+
+-> COMPILE : javac YourFileName.java
+-> RUN : java ClassName
+-------------------------------------------------------------------
+package $01_FirstProgram;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		System.out.print("Hello! It's a JAVA FIRST PROGRAM");
+
+	}
+
+}
+------------------------------------------------------------------
