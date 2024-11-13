@@ -5,7 +5,11 @@
 
 -> COMPILE : javac YourFileName.java
 -> RUN : java ClassName
+
 -------------------------------------------------------------------
+
+JAVA FIRST PROGRAM
+===================
 package $01_FirstProgram;
 
 public class Main {
@@ -18,3 +22,46 @@ public class Main {
 
 }
 ------------------------------------------------------------------
+
+READING VALUES (Class Scnner)
+nextInt()
+nextFloat()
+nextDouble()
+next()
+nextLine()
+nextByte()
+nextShort()
+nextLong()
+nextBoolean()
+hasNextInt()
+hasNextFloat()
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
