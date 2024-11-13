@@ -1,29 +1,21 @@
 -> DOWNLOAD JDK
 -> CHECK VESRION : JAVAC -VERSION
 -> SET PATH 
-
-
 -> COMPILE : javac YourFileName.java
 -> RUN : java ClassName
-
 -------------------------------------------------------------------
 
 JAVA FIRST PROGRAM
 ===================
 package $01_FirstProgram;
-
 public class Main {
-
 	public static void main(String[] args) {
-
 		System.out.print("Hello! It's a JAVA FIRST PROGRAM");
-
 	}
-
 }
 ------------------------------------------------------------------
 
-READING VALUES (Class Scnner)
+USER INPUT (Class Scnner)
 nextInt()
 nextFloat()
 nextDouble()
@@ -36,9 +28,21 @@ nextBoolean()
 hasNextInt()
 hasNextFloat()
 
+-> Scanner myObj = new Scanner(System.in);
 ------------------------------------------------------------------
 
+import java.util.Scanner;  // Import the Scanner class
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);  // Create a Scanner object
+    System.out.println("Enter username");
 
+    String userName = sc.nextLine();  // Read user input
+    System.out.println("Username is: " + userName);  // Output user input
+  }
+}
+
+------------------------------------------------------------------
 
 
 
